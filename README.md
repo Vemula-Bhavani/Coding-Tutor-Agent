@@ -37,7 +37,7 @@ This AI agent is powered by **Ollama's phi3:mini model** and built with **Stream
 ```bash
 git clone https://github.com/Vemula-Bhavani/Coding-Tutor-Agent.git
 cd Coding-Tutor-Agent
-git checkout feature/ai-agent
+git checkout main
 ```
 
 ### 2. Setup Virtual Environment
