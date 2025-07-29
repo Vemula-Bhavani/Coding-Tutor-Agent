@@ -32,7 +32,7 @@ if "response" not in st.session_state:
 # Function to interact with Ollama
 def ask_ollama(prompt):
     try:
-        response = ollama.chat(model="deepseek-r1:1.5b", messages=[
+        response = ollama.chat(model="phi3:mini", messages=[
             {"role": "user", "content": prompt}
         ])
         return response['message']['content']
