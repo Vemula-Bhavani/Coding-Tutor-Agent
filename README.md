@@ -5,13 +5,13 @@
 
 The Multi-Language AI Coding Tutor Agent helps beginners learn essential programming concepts across **Python**, **C**, **C++**, **Java**, and **JavaScript**. The agent provides simple explanations, beginner-friendly code examples, curated YouTube resources, commonly asked coding questions, and small project suggestions to reinforce learning.
 
-This AI agent is powered by **Ollama's deepseek-r1:1.5b model** and built with **Streamlit**, providing an interactive, easy-to-use learning platform for aspiring developers.
+This AI agent is powered by **Ollama's phi3:mini model** and built with **Streamlit**, providing an interactive, easy-to-use learning platform for aspiring developers.
 
 ---
 
 ## ⚙️ Technical Approach
 
-- Uses **Ollama LLM** (`deepseek-r1:1.5b`) to generate beginner-friendly educational content.
+- Uses **Ollama LLM** (`phi3:mini`) to generate beginner-friendly educational content.
 - Built with **Streamlit** for a clean, interactive interface.
 - Aligns all feature buttons in a single row for easy navigation.
 - Removes unnecessary `<think>` blocks from AI output using regular expressions.
@@ -35,8 +35,8 @@ This AI agent is powered by **Ollama's deepseek-r1:1.5b model** and built with *
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/JCurveTech/AIAgentHack2025-Vemula-Bhavani.git
-cd AIAgentHack2025-Vemula-Bhavani
+git clone https://github.com/Vemula-Bhavani/Coding-Tutor-Agent.git
+cd Coding-Tutor-Agent
 git checkout feature/ai-agent
 ```
 
@@ -92,7 +92,7 @@ streamlit run main.py
 
 - Python  
 - Streamlit  
-- Ollama LLM (`deepseek-r1:1.5b`)  
+- Ollama LLM (`phi3:mini`)  
 - Regular Expressions for output cleanup  
 
 ---
@@ -112,11 +112,7 @@ streamlit run main.py
 
 ---
 
-## 🔗 Repository Branch
 
-➡️ https://github.com/JCurveTech/AIAgentHack2025-Vemula-Bhavani.git/tree/feature/ai-agent
-
----
 
 ## 📝 Additional Notes
 
